@@ -160,6 +160,7 @@ img {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  fill: currentColor;
 }
 .phone {
   display: flex;
@@ -169,6 +170,7 @@ img {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  fill: currentColor;
 }
 .contacts-link:hover .icon-mail,
 .contacts-link:focus .icon-mail {
