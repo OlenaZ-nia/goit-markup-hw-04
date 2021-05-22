@@ -183,6 +183,7 @@ img {
 
 /*Секция "Эффективные решения для вашего бизнеса*/
 .hero {
+  margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--footer-color);
@@ -417,6 +418,9 @@ img {
   display: flex;
   justify-content: space-between;
 }
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
 
 .social-list-link {
   display: flex;
@@ -548,9 +552,6 @@ img {
   text-transform: uppercase;
 
   color: var(--title-text-color);
-}
-.part-social-list .social-list {
-  width: 206px;
 }
 
 .social-list-link.footer {
