@@ -418,9 +418,6 @@ img {
   display: flex;
   justify-content: space-between;
 }
-.social-list-item:not(:last-child) {
-  margin-right: 10px;
-}
 
 .social-list-link {
   display: flex;
@@ -541,6 +538,9 @@ img {
 
 .part-social-list {
   margin-left: 70px;
+}
+.part-social-list .social-list-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .text {
