@@ -32,6 +32,10 @@ body {
   text-decoration: none;
 }
 
+:focus {
+  outline: none;
+}
+
 /*h1,
 h2,
 h3,
@@ -603,7 +607,7 @@ img {
 }
 
 .btn-item:hover,
-.btn:focus {
+.btn-item:focus {
   color: var(--title-text-color);
   background-color: var(--accent-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -623,8 +627,16 @@ img {
   margin-bottom: 30px;
   margin-left: 30px;
 }
-.project-element:hover,
+/*.project-element:hover,
 .project-element:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}*/
+.project-link {
+  display: block;
+}
+.project-link:hover,
+.project-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
